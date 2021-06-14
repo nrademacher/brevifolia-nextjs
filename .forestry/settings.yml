@@ -4,11 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: sidebar
+- type: directory
+  path: "./posts"
+  label: directory
+  create: all
+  match: "**/*"
 - type: document
   path: "./posts/bali.md"
   label: document
+- type: heading
+  label: sidebar
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
