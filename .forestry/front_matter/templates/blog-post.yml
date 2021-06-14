@@ -15,4 +15,4 @@ fields:
   name: hero_image
   label: hero_image
 pages:
-- "./ad.md"
+- "./posts/asd.md"
